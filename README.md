@@ -12,7 +12,7 @@ In your Gemfile, add this line:
 
 To enable caching for a model:
 
-    class User < ActiveRecord::Baes
+    class User < ActiveRecord::Base
       self.use_activerecord_cache = true
     end
 
